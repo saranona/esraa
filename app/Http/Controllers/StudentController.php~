@@ -16,9 +16,9 @@ class StudentController extends Controller
     public function index()
     {
      $Student=Student::all();
-     $title="esraa";
+  
 
-       return view ("student",compact("Student","title"));
+       return view ("student",compact("Student"));
     }
 
     /**

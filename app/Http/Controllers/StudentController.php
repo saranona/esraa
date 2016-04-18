@@ -15,7 +15,7 @@ class StudentController extends Controller
      */
     public function index()
     {
-     $Student=Student::all();
+     $Student=Student::();
   
 
        return view ("student",compact("Student"));
